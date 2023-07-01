@@ -1,0 +1,186 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERAL */
+.header{
+    background-color: #f5deb3;
+    position: static;
+    top: 1;
+}
+
+h1{
+    font-size: 2em;
+}
+
+.h1{
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 2px 3px 2px rgba(4, 40, 51, 0.575);
+    color: #bd3f3ff3;
+}
+
+
+.p{
+    font-size: 26px;
+    text-shadow: none;
+}
+
+.tab{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dbc5a7;
+    margin: 6px 0 6px 0;
+    padding: 6px;
+}
+
+.tab a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: seashell;
+    border-inline: 10px;
+}
+
+.tab a:hover{
+    color: bisque;
+    transform: scale(1.1);
+    animation: all;
+}
+
+.type , .sub{
+    border-radius: 6px;
+    background-color: #deb887;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.hot a{
+    text-decoration: none;
+    color: rgb(202, 45, 45);
+    font-weight: 600;
+    font-size: 36px;
+}
+
+h1:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(1.05);
+}
+
+.hot h1{
+    font-size: 50px;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    width:fit-content;
+}
+
+.hot figure{
+    margin: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 14px;
+    border: none;
+    box-shadow: 2px 2px 2px #a52a2a;
+}
+
+.hot img{
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+}
+
+.stories{
+    border: none;
+    box-shadow: 2px 2px 2px #a52a2a;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.stories h1{
+    font-size: 50px;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    width:fit-content;
+}
+
+.stories img{
+    margin-left: 10px;
+    display: flex;
+}
+
+.waifu h1{
+    font-size: 50px;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    width:fit-content;
+}
+.waifu1{
+    margin: 10px;
+}
+.waifu1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.week h1{
+    font-size: 50px;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    width:fit-content;
+}
+.week1{
+    margin: 10px;
+}
+.upcoming h1{
+    font-size: 50px;
+    border-radius: 8px;
+    padding: 0 10px 0 10px;
+    margin: 10px;
+    width:fit-content;
+}
+.upcoming1{
+    margin: 10px;
+}
+
+figcaption{
+    color: #ffffff;
+}
+
+.ending{
+    display: flex;
+    flex-grow: 1;
+    bottom: 0;
+    background-color: #faebd757;
+    justify-content: center;
+    font: 20px sans-serif;
+    margin-top: 20px;
+}
+
+.ending p{
+    background-color: #a52a2a;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #deb887;
+}
+
+
