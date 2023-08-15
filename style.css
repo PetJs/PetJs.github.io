@@ -6,7 +6,7 @@
 }
 /* GENERAL */
 .header{
-    background-color: #f5deb3;
+    background-color: #f7efe2;
     position: static;
     top: 1;
 }
@@ -19,7 +19,7 @@ h1{
     text-align: center;
     font-size: 3em;
     text-shadow: 2px 3px 2px rgba(4, 40, 51, 0.575);
-    color: #bd3f3ff3;
+    color: #942d2df3;
     margin-right: 20px;
 }
 
@@ -29,41 +29,7 @@ h1{
 }
 
 
-.tab{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #dbc5a7;
-    margin: 6px 0 6px 0;
-    padding: 6px;
-}
 
-.tab a{
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    cursor: pointer;
-    border-radius: 50px;
-    padding: 8px;
-    background-color: seashell;
-    border-inline: 10px;
-}
-
-.tab a:hover{
-    color: bisque;
-    transform: scale(1.1);
-    animation: all;
-}
-
-.type , .sub{
-    border-radius: 6px;
-    background-color: #deb887;
-    color: #ffffff;
-    margin-left: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-    padding-left: 3px;
-    padding-right: 3px;
-}
 
 .hot a{
     text-decoration: none;
@@ -132,7 +98,7 @@ h1:hover{
 }
 .waifu1 a{
     text-decoration: none;
-    color: white;
+    color: rgb(61, 42, 42);
 }
 
 .week h1{
@@ -157,7 +123,7 @@ h1:hover{
 }
 
 figcaption{
-    color: #ffffff;
+    color: #3d2b2b;
 }
 
 .ending{
@@ -181,7 +147,7 @@ ul{
 }
 
 body{
-    background-color: #deb887;
+    background-color: #f1eae0d7;
 }
 
 /*|| SMALL */
